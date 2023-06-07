@@ -8,7 +8,7 @@ namespace Weather
 {
     public partial class MainWindow : Window
     {
-        private const string ApiKey = "3a6e129ab8de98a4f8b7ed6ac17e2152";
+        private const string ApiKey = "ENTER_API_KEY";
         private const string ApiUrl = "https://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric&lang=ru";
 
         public MainWindow()
